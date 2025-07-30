@@ -33,17 +33,18 @@ export const ThemeToggle = () => {
 
   return (
   <button
-    onClick={toggleTheme}
-    className={cn(
-      "fixed top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
-      "focus:outline-none"
-    )}
-  >
-    {isDarkMode ? (
-      <Sun className="h-6 w-6 text-yellow-300" />
-    ) : (
-      <Moon className="h-6 w-6 text-blue-900" />
-    )}
-  </button>
+  onClick={toggleTheme}
+  className={cn(
+    "fixed top-5 right-16 z-50 p-2 rounded-full transition-colors duration-300", // Changed right-5 → right-16
+    "focus:outline-none",
+    "max-sm:right-16" // Ensure it stays spaced on mobile
+  )}
+>
+  {isDarkMode ? (
+    <Sun className="h-6 w-6 text-yellow-300" />
+  ) : (
+    <Moon className="h-6 w-6 text-blue-900" />
+  )}
+</button>
 );
 };
