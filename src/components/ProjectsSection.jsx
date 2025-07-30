@@ -1,36 +1,37 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
-
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
+    title: "Japan Travel Assistant – Flutter App",
+    description:
+      "A smart Flutter app to explore Japan's top cities, book flights/hotels, and get AI-powered travel recommendations. Includes chat assistant, trip planner, SOS feature, and GPT-4 integration.",
+    image: "/projects/project1.jpg", 
+    tags: ["Flutter", "Firebase", "GPT-4", "AI Assistant"],
+    demoUrl: "#", 
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Legal Right Awareness App",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "A final year Flutter project connecting clients with lawyers. Features include real-time chat, AI legal assistant, complaint system, and lawyer recommendations with admin panel.",
+    image: "/projects/project2.jpeg", 
+    tags: ["Flutter", "Firebase", "AI", "Real-time Chat"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SajidMohmand/Final-Year-Project",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "GeoTrack – Location Tracking App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Flutter-based geolocation app with address saving, shortest path calculation, and real-time tracking. Ideal for logistics and delivery planning.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["Flutter", "Firebase", "Google Maps API", "Geolocation"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/SajidMohmand/GeoTrack-Smart-Address-Tracker",
   },
 ];
+
 
 export const ProjectsSection = () => {
   return (
@@ -60,7 +61,7 @@ export const ProjectsSection = () => {
                 />
               </div>
 
-              <div className="p-6">
+              <div className="p-6 text-left">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
@@ -100,7 +101,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/SajidMohmand/"
           >
             Check My Github <ArrowRight size={16} />
           </a>
