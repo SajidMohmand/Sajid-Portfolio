@@ -40,7 +40,6 @@ export const ContactSection = () => {
         );
       }
 
-      const result = await response.json();
 
       toast({
         title: "Message sent!",
