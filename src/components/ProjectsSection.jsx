@@ -61,7 +61,27 @@ const projects = [
   githubUrl: "",
 },
   {
-    id: 7,
+  id: 7,
+  title: "OFFY – Food Delivery App",
+  description:
+    "On-demand food delivery platform with real-time order tracking, driver management, payments, maps, and in-app chat.",
+  image: "/projects/offy.png",
+  tags: ["Flutter", "Firebase", "Google Maps", "Payments"],
+  demoUrl: "#",
+  githubUrl: "",
+},
+{
+  id: 8,
+  title: "Amber Zahrat Jewellers",
+  description:
+    "Real-time gold and silver rates app powered by WebSockets with live market prices, analytics, and trading insights.",
+  image: "/projects/amber-zahrat.png",
+  tags: ["Flutter", "WebSocket", "VPS", "Real-Time Data"],
+  demoUrl: "https://play.google.com/store/apps/details?id=com.draya.OlirianPredicts&pcampaignid=web_share",
+  githubUrl: "",
+},
+  {
+    id: 9,
     title: "Japan Travel Assistant – Flutter App",
     description:
       "A smart Flutter app to explore Japan's top cities, book flights/hotels, and get AI-powered travel recommendations. Includes chat assistant, trip planner, SOS feature, and GPT-4 integration.",
@@ -71,7 +91,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 8,
+    id: 10,
     title: "Legal Right Awareness App",
     description:
       "A final year Flutter project connecting clients with lawyers. Features include real-time chat, AI legal assistant, complaint system, and lawyer recommendations with admin panel.",
@@ -81,7 +101,7 @@ const projects = [
     githubUrl: "https://github.com/SajidMohmand/Final-Year-Project",
   },
   {
-    id: 9,
+    id: 11,
     title: "GeoTrack – Location Tracking App",
     description:
       "Flutter-based geolocation app with address saving, shortest path calculation, and real-time tracking. Ideal for logistics and delivery planning.",
