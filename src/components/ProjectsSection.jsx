@@ -1,7 +1,67 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
-    id: 1,
+  id: 1,
+  title: "OlirianPredicts – Fortune Teller App",
+  description:
+    "Cross-platform Flutter app that delivers personalized fortune predictions with a clean UI, smooth performance, and Google Play Store deployment.",
+  image: "/projects/olirianpredicts.png",
+  tags: ["Flutter", "Firebase", "Android", "iOS"],
+  demoUrl: "https://play.google.com/store/apps/details?id=com.draya.OlirianPredicts&pcampaignid=web_share",
+  githubUrl: "",
+},
+{
+  id: 2,
+  title: "MyPrayerWorks – Faith Community",
+  description:
+    "Faith-based social community where users share prayers, testimonies, and encouragement through an engaging Flutter mobile application.",
+  image: "/projects/myprayerworks.png",
+  tags: ["Flutter", "Firebase", "Social App", "Android"],
+  demoUrl: "https://play.google.com/store/apps/details?id=com.drayawill.myprayerworks&pcampaignid=web_share",
+  githubUrl: "",
+},
+{
+  id: 3,
+  title: "SyncSphere – Event Planning Hub",
+  description:
+    "Collaborative event planning app featuring guest management, budgets, tasks, timelines, calendar, and local offline persistence.",
+  image: "/projects/syncsphere.png",
+  tags: ["Flutter", "Hive", "Provider", "Material 3"],
+  demoUrl: "#",
+  githubUrl: "",
+},
+{
+  id: 4,
+  title: "SchoolID Collect",
+  description:
+    "Android Flutter app that generates student ID cards from school templates with photo upload and native Email/WhatsApp sharing.",
+  image: "/projects/schoolidcollect.png",
+  tags: ["Flutter", "Android", "Image Processing", "PDF"],
+  demoUrl: "#",
+  githubUrl: "",
+},
+{
+  id: 5,
+  title: "PlayConnect – Sports Network",
+  description:
+    "Sports networking MVP helping users discover players in their organization and connect instantly through WhatsApp.",
+  image: "/projects/playconnect.png",
+  tags: ["Flutter", "Node.js", "PostgreSQL", "JWT"],
+  demoUrl: "#",
+  githubUrl: "",
+},
+{
+  id: 6,
+  title: "Korva – Home Services",
+  description:
+    "Marketplace app connecting customers with trusted local professionals using Firebase, Google Maps, and real-time chat.",
+  image: "/projects/korva.png",
+  tags: ["Flutter", "Firebase", "Google Maps", "Firestore"],
+  demoUrl: "#",
+  githubUrl: "",
+},
+  {
+    id: 7,
     title: "Japan Travel Assistant – Flutter App",
     description:
       "A smart Flutter app to explore Japan's top cities, book flights/hotels, and get AI-powered travel recommendations. Includes chat assistant, trip planner, SOS feature, and GPT-4 integration.",
@@ -11,7 +71,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 2,
+    id: 8,
     title: "Legal Right Awareness App",
     description:
       "A final year Flutter project connecting clients with lawyers. Features include real-time chat, AI legal assistant, complaint system, and lawyer recommendations with admin panel.",
@@ -21,7 +81,7 @@ const projects = [
     githubUrl: "https://github.com/SajidMohmand/Final-Year-Project",
   },
   {
-    id: 3,
+    id: 9,
     title: "GeoTrack – Location Tracking App",
     description:
       "Flutter-based geolocation app with address saving, shortest path calculation, and real-time tracking. Ideal for logistics and delivery planning.",
