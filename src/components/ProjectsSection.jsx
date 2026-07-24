@@ -77,7 +77,7 @@ const projects = [
     "Real-time gold and silver rates app powered by WebSockets with live market prices, analytics, and trading insights.",
   image: "/projects/amber-zahrat.png",
   tags: ["Flutter", "WebSocket", "VPS", "Real-Time Data"],
-  demoUrl: "https://play.google.com/store/apps/details?id=com.draya.OlirianPredicts&pcampaignid=web_share",
+  demoUrl: "https://play.google.com/store/apps/details?id=com.jazzify.amber&pcampaignid=web_share",
   githubUrl: "",
 },
   {
