@@ -15,7 +15,7 @@ const projects = [
   title: "MyPrayerWorks – Faith Community",
   description:
     "Faith-based social community where users share prayers, testimonies, and encouragement through an engaging Flutter mobile application.",
-  image: "/projects/myprayerworks.png",
+  image: "/projects/MyPrayerWorks.png",
   tags: ["Flutter", "Firebase", "Social App", "Android"],
   demoUrl: "https://play.google.com/store/apps/details?id=com.drayawill.myprayerworks&pcampaignid=web_share",
   githubUrl: "",
