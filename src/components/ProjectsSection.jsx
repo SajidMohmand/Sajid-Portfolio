@@ -25,7 +25,7 @@ const projects = [
   title: "SyncSphere – Event Planning Hub",
   description:
     "Collaborative event planning app featuring guest management, budgets, tasks, timelines, calendar, and local offline persistence.",
-  image: "/projects/syncsphere.png",
+  image: "/projects/SyncSphere.png",
   tags: ["Flutter", "Hive", "Provider", "Material 3"],
   demoUrl: "#",
   githubUrl: "",
@@ -35,7 +35,7 @@ const projects = [
   title: "SchoolID Collect",
   description:
     "Android Flutter app that generates student ID cards from school templates with photo upload and native Email/WhatsApp sharing.",
-  image: "/projects/schoolidcollect.png",
+  image: "/projects/SchoolID Collect.png",
   tags: ["Flutter", "Android", "Image Processing", "PDF"],
   demoUrl: "#",
   githubUrl: "",
@@ -45,7 +45,7 @@ const projects = [
   title: "PlayConnect – Sports Network",
   description:
     "Sports networking MVP helping users discover players in their organization and connect instantly through WhatsApp.",
-  image: "/projects/playconnect.png",
+  image: "/projects/PlayConnect.png",
   tags: ["Flutter", "Node.js", "PostgreSQL", "JWT"],
   demoUrl: "#",
   githubUrl: "",
@@ -55,7 +55,7 @@ const projects = [
   title: "Korva – Home Services",
   description:
     "Marketplace app connecting customers with trusted local professionals using Firebase, Google Maps, and real-time chat.",
-  image: "/projects/korva.png",
+  image: "/projects/Korva.png",
   tags: ["Flutter", "Firebase", "Google Maps", "Firestore"],
   demoUrl: "#",
   githubUrl: "",
