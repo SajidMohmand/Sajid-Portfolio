@@ -12,32 +12,36 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Flutter Developer & Mobile Tech Creator
-            </h3>
+  Flutter & Full-Stack Developer
+</h3>
 
-            <p className="text-muted-foreground">
-              With over 5 years of experience in mobile development, I specialize in building responsive,
-              accessible, and high-performance apps using Flutter and modern mobile technologies.
-            </p>
+<p className="text-muted-foreground">
+  I'm a Flutter Developer with 5+ years of experience building cross-platform
+  mobile applications and scalable backend systems using Flutter, Firebase,
+  Node.js, and NestJS. I specialize in developing high-performance apps with
+  clean architecture, modern UI, and seamless user experiences.
+</p>
 
-            <p className="text-muted-foreground">
-              I'm a Flutter developer passionate about crafting seamless, user-friendly mobile apps.
-               I focus on elegant UI/UX and visual content that brings ideas to life and keeps users engaged.
-            </p>
+<p className="text-muted-foreground">
+  I've successfully published multiple applications on Google Play Store and
+  have experience managing releases through Google Play Console and Apple App
+  Store Connect. As a Fiverr Level 1 Seller, I've delivered custom software
+  solutions for clients across the USA, Saudi Arabia, China, India,
+  Bangladesh, and Malaysia.
+</p>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
-                {" "}
-                Get In Touch
-              </a>
+<div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+  <a href="#contact" className="cosmic-button">
+    Get In Touch
+  </a>
 
-              <a
-                href="/projects/Sajid Ali Khan-Flutter Developer-CV.pdf"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-              >
-                Download CV
-              </a>
-            </div>
+  <a
+    href="/projects/Sajid Ali Khan-Flutter Developer-CV.pdf"
+    className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+  >
+    Download CV
+  </a>
+</div>
           </div>
 
           <div className="grid grid-cols-1 gap-6">
@@ -47,10 +51,14 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Mobile Development</h4>
-                  <p className="text-muted-foreground">
-                    Creating responsive and high-performance mobile applications with Flutter and modern tools.
-                  </p>
+                  <h4 className="font-semibold text-lg">
+  Flutter Mobile Development
+</h4>
+
+<p className="text-muted-foreground">
+  Building high-performance Android and iOS applications with Flutter,
+  Firebase, REST APIs, state management, and responsive UI.
+</p>
                 </div>
               </div>
             </div>
@@ -60,10 +68,14 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI Implementation</h4>
-                  <p className="text-muted-foreground">
-                    Bringing Figma designs to life by building pixel-perfect, responsive UIs in Flutter.
-                  </p>
+                  <h4 className="font-semibold text-lg">
+  Backend & API Development
+</h4>
+
+<p className="text-muted-foreground">
+  Developing secure and scalable backend systems using Node.js, NestJS,
+  Express, PostgreSQL, Prisma ORM, JWT Authentication, and REST APIs.
+</p>
                 </div>
               </div>
             </div>
@@ -74,11 +86,15 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
-                  </p>
+                  <h4 className="font-semibold text-lg">
+  App Deployment & Client Delivery
+</h4>
+
+<p className="text-muted-foreground">
+  Publishing production-ready apps to Google Play Store and Apple App Store,
+  managing releases, and delivering successful projects to international
+  clients through Fiverr.
+</p>
                 </div>
               </div>
             </div>
