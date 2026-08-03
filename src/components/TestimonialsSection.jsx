@@ -42,7 +42,7 @@ const testimonials = [
       "It was an exceptional experience. Extremely patient and polite, with amazing response timing and never disappointing. Always eager to understand the requirements and always doing level best to reach them as well as delivering in amazing speed as well. Will recommend to everyone definitely and would love to work again as well.",
   },
   {
-    name: "gkabloom",
+    name: "Gaurav V",
     country: "India 🇮🇳",
     rating: 5,
     review: "Good resource",
