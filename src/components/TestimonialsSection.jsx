@@ -56,18 +56,17 @@ const testimonials = [
       "Great work, very professional and delivered exactly as promised. Highly recommended!",
   },
   {
-    name: "arnaudverpoucke",
-    country: "Belgium 🇧🇪",
-    rating: 5,
-    review:
-      "I have never had such a great collaboration with anyone on Fiverr. He developed in a very short time an app with hard requirements that dove into the external system level of Android.
+  name: "Arnaud V.",
+  country: "Belgium 🇧🇪",
+  rating: 5,
+  review: `I have never had such a great collaboration with anyone on Fiverr. He developed in a very short time an app with hard requirements that dove into the external system level of Android.
 
 Sajid exceeded my expectations! From the very beginning he kept me updated on the progress proactively, explained everything clearly, and made sure I was happy at each step. The app works perfectly, required zero revisions and is exactly as I hoped for.
 
 What I appreciated most is how easy it was to communicate with him. He is professional and fast. I also love that he suggested some extra ideas to make the app even better in the future. I'll come back for sure.
 
-These are the sort of people who make Fiverr amazing.",
-  },
+These are the sort of people who make Fiverr amazing.`,
+},
 
   {
     name: "banglatiger",
