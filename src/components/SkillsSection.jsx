@@ -65,7 +65,7 @@ export const SkillsSection = () => {
   </div>
 
   <div className="bg-card rounded-xl p-5 text-center">
-    <h3 className="text-3xl font-bold text-primary">5+</h3>
+    <h3 className="text-3xl font-bold text-primary">12+</h3>
     <p className="text-muted-foreground text-sm">Published Projects</p>
   </div>
 
