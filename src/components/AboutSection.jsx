@@ -16,7 +16,7 @@ export const AboutSection = () => {
 </h3>
 
 <p className="text-muted-foreground">
-  I'm a Flutter Developer with 5+ years of experience building cross-platform
+  I'm a Flutter Developer with 1+ years of experience building cross-platform
   mobile applications and scalable backend systems using Flutter, Firebase,
   Node.js, and NestJS. I specialize in developing high-performance apps with
   clean architecture, modern UI, and seamless user experiences.
