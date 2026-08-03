@@ -60,12 +60,12 @@ export const SkillsSection = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
   <div className="bg-card rounded-xl p-5 text-center">
-    <h3 className="text-3xl font-bold text-primary">5+</h3>
+    <h3 className="text-3xl font-bold text-primary">1+</h3>
     <p className="text-muted-foreground text-sm">Years Experience</p>
   </div>
 
   <div className="bg-card rounded-xl p-5 text-center">
-    <h3 className="text-3xl font-bold text-primary">12+</h3>
+    <h3 className="text-3xl font-bold text-primary">5+</h3>
     <p className="text-muted-foreground text-sm">Published Projects</p>
   </div>
 
