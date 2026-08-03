@@ -3,18 +3,18 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 export const ThemeToggle = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false); // default to light
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
 
-    if (storedTheme === "light") {
-      document.documentElement.classList.remove("dark");
-      setIsDarkMode(false);
+    // Default to LIGHT mode
+    if (storedTheme === "dark") {
+      document.documentElement.classList.add("dark");
+      setIsDarkMode(true);
     } else {
-      // default to dark if not set
+      document.documentElement.classList.remove("dark");
       localStorage.setItem("theme", "light");
-      document.documentElement.classList.add("light");
       setIsDarkMode(false);
     }
   }, []);
@@ -32,19 +32,19 @@ export const ThemeToggle = () => {
   };
 
   return (
-  <button
-  onClick={toggleTheme}
-  className={cn(
-    "fixed top-5 right-8 z-50 p-2 rounded-full transition-colors duration-300", // Changed right-5 → right-16
-    "focus:outline-none",
-    "max-sm:right-16" // Ensure it stays spaced on mobile
-  )}
->
-  {isDarkMode ? (
-    <Sun className="h-6 w-6 text-yellow-300" />
-  ) : (
-    <Moon className="h-6 w-6 text-blue-900" />
-  )}
-</button>
-);
+    <button
+      onClick={toggleTheme}
+      className={cn(
+        "fixed top-5 right-8 z-50 p-2 rounded-full transition-colors duration-300",
+        "focus:outline-none",
+        "max-sm:right-16"
+      )}
+    >
+      {isDarkMode ? (
+        <Sun className="h-6 w-6 text-yellow-400" />
+      ) : (
+        <Moon className="h-6 w-6 text-blue-900" />
+      )}
+    </button>
+  );
 };
