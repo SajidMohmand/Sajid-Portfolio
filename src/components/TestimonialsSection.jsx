@@ -2,7 +2,7 @@ import { Star } from "lucide-react";
 
 const stats = [
   {
-    value: "5+",
+    value: "1+",
     label: "Years Experience",
   },
   {
@@ -21,47 +21,90 @@ const stats = [
 
 const testimonials = [
   {
-    name: "John",
+    name: "draya123",
     country: "USA 🇺🇸",
     rating: 5,
     review:
-      "Outstanding Flutter developer. Delivered exactly what I wanted and communication was excellent throughout the project.",
+      "Well done, working on another project with him.",
   },
   {
-    name: "Ahmed",
+    name: "ennnga",
     country: "Saudi Arabia 🇸🇦",
     rating: 5,
     review:
-      "Very professional and highly skilled. Solved difficult issues quickly and delivered before the deadline.",
+      "He is professional in his work and very helpful, I definitely work with him again and again... I recommend him",
   },
   {
-    name: "Kevin",
+    name: "jannet_00",
     country: "Malaysia 🇲🇾",
     rating: 5,
     review:
-      "Excellent experience. Clean code, fast delivery, and great attention to detail. Highly recommended.",
+      "It was an exceptional experience. Extremely patient and polite, with amazing response timing and never disappointing. Always eager to understand the requirements and always doing level best to reach them as well as delivering in amazing speed as well. Will recommend to everyone definitely and would love to work again as well.",
   },
   {
-    name: "Rahul",
+    name: "gkabloom",
     country: "India 🇮🇳",
     rating: 5,
     review:
-      "Fantastic developer. Understood the requirements perfectly and exceeded expectations.",
+      "Good resource",
   },
   {
-    name: "Arif",
+    name: "banglatiger",
     country: "Bangladesh 🇧🇩",
     rating: 5,
     review:
-      "Professional communication and high-quality Flutter development. Will definitely hire again.",
+      "Great work, very professional and delivered exactly as promised. Highly recommended!",
   },
   {
-    name: "Leo",
-    country: "China 🇨🇳",
+    name: "arnaudverpoucke",
+    country: "Belgium 🇧🇪",
     rating: 5,
     review:
-      "Very knowledgeable developer. Delivered a polished application with excellent performance.",
+      "I have never had such a great collaboration with anyone on Fiverr. He developed in a very short time an app with hard requirements that dove into the external system level of Android.
+
+Sajid exceeded my expectations! From the very beginning he kept me updated on the progress proactively, explained everything clearly, and made sure I was happy at each step. The app works perfectly, required zero revisions and is exactly as I hoped for.
+
+What I appreciated most is how easy it was to communicate with him. He is professional and fast. I also love that he suggested some extra ideas to make the app even better in the future. I'll come back for sure.
+
+These are the sort of people who make Fiverr amazing.",
   },
+
+  {
+    name: "banglatiger",
+    country: "Bangladesh 🇧🇩",
+    rating: 5,
+    review:
+      "Good Job. Looking forward to work with him again!",
+  },
+  {
+    name: "draya123",
+    country: "USA 🇺🇸",
+    rating: 5,
+    review:
+      "Thanks for the apps",
+  },
+  {
+    name: "allaboutaryan",
+    country: "India 🇮🇳",
+    rating: 5,
+    review:
+      "great work , he is always there to help me out if there any fixes he did that too and very cooperative guy .",
+  },
+  {
+    name: "banglatiger",
+    country: "Bangladesh 🇧🇩",
+    rating: 5,
+    review:
+      "Great job. recommended for android app.",
+  },
+  {
+    name: "moawes",
+    country: "India 🇮🇳",
+    rating: 5,
+    review:
+      "very good work,he is patient and aware what you wants.",
+  },
+  
 ];
 
 export const TestimonialsSection = () => {
