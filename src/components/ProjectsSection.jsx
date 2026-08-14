@@ -96,7 +96,17 @@ const projects = [
     githubUrl: "",
   },
   {
-    id: 10,
+  id: 10,
+  title: "Jain Marble Center – Business CRM App",
+  description:
+    "Business CRM app designed to help Jain Marble Center manage leads, customer enquiries, follow-ups, and business interactions through a simple and organized mobile experience.",
+  image: "/projects/jain-marble-crm.png",
+  tags: ["Flutter", "Dart", "Firebase", "CRM", "Android", "iOS"],
+  demoUrl: "https://play.google.com/store/apps/details?id=com.jainmarble.app&pcampaignid=web_share",
+  githubUrl: "",
+},
+  {
+    id: 11,
     title: "Japan Travel Assistant – Flutter App",
     description:
       "A smart Flutter app to explore Japan's top cities, book flights/hotels, and get AI-powered travel recommendations. Includes chat assistant, trip planner, SOS feature, and GPT-4 integration.",
@@ -106,7 +116,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 11,
+    id: 12,
     title: "Legal Right Awareness App",
     description:
       "A final year Flutter project connecting clients with lawyers. Features include real-time chat, AI legal assistant, complaint system, and lawyer recommendations with admin panel.",
@@ -116,7 +126,7 @@ const projects = [
     githubUrl: "https://github.com/SajidMohmand/Final-Year-Project",
   },
   {
-    id: 12,
+    id: 13,
     title: "GeoTrack – Location Tracking App",
     description:
       "Flutter-based geolocation app with address saving, shortest path calculation, and real-time tracking. Ideal for logistics and delivery planning.",
