@@ -106,7 +106,18 @@ const projects = [
   githubUrl: "",
 },
   {
-    id: 11,
+  id: 11,
+  title: "AZ Gold & Silver – Live Metal Tracker",
+  description:
+    "Native iOS precious metals app built with Swift and SwiftUI, featuring live gold & silver rates, watchlists, price alerts, market analysis, gold calculator, and native iOS notifications. Published on the Apple App Store.",
+  image: "/projects/az-gold-silver.png",
+  tags: ["Swift", "SwiftUI", "iOS", "FinTech"],
+  demoUrl:
+    "https://apps.apple.com/pk/app/az-gold-and-silver/id6792547174",
+  githubUrl: "",
+},
+  {
+    id: 12,
     title: "Japan Travel Assistant – Flutter App",
     description:
       "A smart Flutter app to explore Japan's top cities, book flights/hotels, and get AI-powered travel recommendations. Includes chat assistant, trip planner, SOS feature, and GPT-4 integration.",
@@ -116,7 +127,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 12,
+    id: 13,
     title: "Legal Right Awareness App",
     description:
       "A final year Flutter project connecting clients with lawyers. Features include real-time chat, AI legal assistant, complaint system, and lawyer recommendations with admin panel.",
@@ -126,7 +137,7 @@ const projects = [
     githubUrl: "https://github.com/SajidMohmand/Final-Year-Project",
   },
   {
-    id: 13,
+    id: 14,
     title: "GeoTrack – Location Tracking App",
     description:
       "Flutter-based geolocation app with address saving, shortest path calculation, and real-time tracking. Ideal for logistics and delivery planning.",
