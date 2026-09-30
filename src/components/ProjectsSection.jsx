@@ -127,7 +127,17 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 13,
+  id: 13,
+  title: "EZ 4QTR Pool – Football Squares",
+  description:
+      "Cross-platform football pool app where users join leagues, claim squares on a dynamic 10x10 grid, track live scores, and automatically calculate quarter-by-quarter winners.",
+  image: "/projects/EZ4QTRPool.png",
+  tags: ["Flutter", "Firebase", "Firestore", "Sports App", "iOS & Android"],
+  demoUrl: "",
+  githubUrl: "",
+},
+  {
+    id: 14,
     title: "Legal Right Awareness App",
     description:
       "A final year Flutter project connecting clients with lawyers. Features include real-time chat, AI legal assistant, complaint system, and lawyer recommendations with admin panel.",
@@ -137,7 +147,7 @@ const projects = [
     githubUrl: "https://github.com/SajidMohmand/Final-Year-Project",
   },
   {
-    id: 14,
+    id: 15,
     title: "GeoTrack – Location Tracking App",
     description:
       "Flutter-based geolocation app with address saving, shortest path calculation, and real-time tracking. Ideal for logistics and delivery planning.",
